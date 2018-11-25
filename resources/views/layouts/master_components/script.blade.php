@@ -2,6 +2,9 @@
 <script src="{{asset('plugins/adminLTE/bower_components/jquery/dist/jquery.min.js')}}"></script>
 <!-- Bootstrap 3.3.7 -->
 <script src="{{asset('plugins/adminLTE/bower_components/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+<!-- DataTables -->
+<script src="{{asset('plugins/jquery-datatables/jquery-dataTables-1.10.19.min.js')}}"></script>
+<script src="{{asset('plugins/jquery-datatables/jquery-dataTables.bootstrap-1-10-19.min.js')}}"></script>
 <!-- FastClick -->
 <script src="{{asset('plugins/adminLTE/bower_components/fastclick/lib/fastclick.js')}}"></script>
 <!-- AdminLTE App -->

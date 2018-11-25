@@ -15,7 +15,7 @@
                 <label>Nombre</label>
                 <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-globe"></i></span>
-                <input type="text" name="pais_nombre" class="form-control" value="">
+                <input type="text" name="pais_nombre" class="form-control" value="" required>
                 </div>
                 <div style="height: 1.5em;"></div>
             </div>
@@ -23,7 +23,7 @@
                 <label>Código Dane</label>
                 <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-barcode"></i></span>
-                <input type="text" name="pais_coddane" class="form-control" value="">
+                <input type="number" name="pais_coddane" class="form-control" value="" required>
                 </div>
                 <div style="height: 1.5em;"></div>
             </div>
@@ -31,7 +31,7 @@
                 <label>Código ISO</label>
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-barcode"></i></span>
-                    <input type="text" name="pais_codiso" class="form-control" value="">
+                    <input type="text" name="pais_codiso" class="form-control" value="" required>
                 </div>
                 <div style="height: 1.5em;"></div>
             </div>

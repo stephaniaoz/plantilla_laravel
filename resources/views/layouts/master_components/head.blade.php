@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="{{asset('plugins/adminLTE/bower_components/font-awesome/css/font-awesome.min.css')}}">
     <!-- Ionicons -->
     <link rel="stylesheet" href="{{asset('plugins/adminLTE/bower_components/Ionicons/css/ionicons.min.css')}}">
+    <!-- DataTables -->
+    <link rel="stylesheet" href="{{asset('plugins/jquery-datatables/jquery-dataTables-1.10.19.min.css')}}">
     <!-- jvectormap -->
     <link rel="stylesheet" href="{{asset('plugins/adminLTE/bower_components/jvectormap/jquery-jvectormap.css')}}">
     <!-- Theme style -->
@@ -17,7 +19,7 @@
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="{{asset('plugins/adminLTE/dist/css/skins/_all-skins.min.css')}}">
-  
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
