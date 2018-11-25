@@ -12,5 +12,19 @@
 */
 
 Route::get('/', function () {
-    return view('layouts.master');
+    return view('master');
 });
+
+Route::get('/example', function () {
+    return view('layouts.master-example');
+});
+
+Route::get('/dashboard', function(){
+    return view('dashboard.index');
+})->name('dashboard');
+
+Route::resources([
+    'usuario' => 'UsuarioController',
+    'pais' => 'PaisController'
+]);
+
