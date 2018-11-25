@@ -39,7 +39,7 @@
                 <div class="box-footer">        
                     <button type="submit" class="btn btn-info"><i class="fa fa-floppy-o"></i> Grabar</button>
                     <button type="reset" class="btn btn-default"><i class="fa fa-file-o"></i> Limpiar</button>
-                    <a href="" class="btn btn-primary pull-right"><i class="fa fa-search "></i> Buscar</a>            
+                    <a href="{{route('pais.index')}}" class="btn btn-primary pull-right"><i class="fa fa-times"></i> Cancelar</a>            
                 </div>
             </div>
         </form>         

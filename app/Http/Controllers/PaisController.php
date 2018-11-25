@@ -10,7 +10,8 @@ class PaisController extends Controller
 {
     //Función principal donde permitirá listar y mostrar formulario principal
     public function index(){
-        return view('basicos.pais.index');
+        $paises = PaisModel::all();
+        return view('basicos.pais.index', compact('paises'));
     }
 
     //Grabará en la tabla el País
@@ -36,7 +37,7 @@ class PaisController extends Controller
         
     }
 
-    public function list(){
-        return view('basicos.pais.index');
+    public function create(){
+        return view('basicos.pais.create');
     }
 }
