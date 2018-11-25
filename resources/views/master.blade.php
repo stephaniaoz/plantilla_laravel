@@ -26,7 +26,8 @@
                
                 <!-- Main content -->
                 <section class="content">
-                    @yield('container')
+                    @include('fragments.error')
+                    @yield('container')                    
                 <!-- Info boxes -->
                 </section>
              <!-- /.content -->
