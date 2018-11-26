@@ -7,6 +7,7 @@
 <li class="active">Pais</li>
 @stop
 @section('container')
+<!--
 <div class="box box-info">
         <div class="box-body">
            <div class="row">
@@ -43,9 +44,7 @@
              </form>         
            </div>   
         </div>
-        
-        <!-- /.box-body -->
-     </div>
+    </div>-->
 <div class="box">
     <div class="box-header">
             <a class="btn btn-info pull-right" href="{{route('pais.create')}}">
@@ -83,10 +82,10 @@
                         <td>{{$pais->fecha_creacion}}</td>
                         <td>{{$pais->fecha_modificacion}}</td>
                         <td>
-                            <a class="btn btn-primary" href="">
+                            <a class="btn btn-primary" href="{{route('pais.show',$pais->pais_codigo)}}">
                                 <i class="fa fa-eye"></i>
                             </a>
-                            <a class="btn btn-info" href="">
+                            <a class="btn btn-info" href="{{route('pais.edit',$pais->pais_codigo)}}">
                                 <i class="fa fa-pencil-square-o"></i>
                             </a>
                             <a class="btn btn-danger" href="">

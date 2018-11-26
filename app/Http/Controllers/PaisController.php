@@ -40,4 +40,10 @@ class PaisController extends Controller
     public function create(){
         return view('basicos.pais.create');
     }
+
+    public function show($id){
+        $pais = PaisModel::find($id);
+        return view('basicos.pais.show', compact('pais'));
+    }
+    
 }
